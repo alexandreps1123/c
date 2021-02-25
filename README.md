@@ -6,8 +6,8 @@ Foi em linguagem C minhas primeiras linhas de código, então retornar as origen
 ## Compilação em C
 
 >Exemplo:
-* Instrução compilar: gcc -ansi -Wall -o helloWorld helloWorld.c
-* executar: ./helloWorld
+Instrução compilar: gcc -ansi -Wall -o helloWorld helloWorld.c
+executar: ./helloWorld
 
 * gcc:    comando que invoca o compilador
 * -ansi:  parâmetro opcional, passado ao 'gcc' para que só aceite o padrão ANSI C
