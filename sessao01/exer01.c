@@ -1,24 +1,23 @@
-/*  Programa que le dois numeros e troca os conteudos 
-    desses numeros e imprime os novos valores na tela   */
-
+/*
+le dois numeros e troca os conteudos desses numeros
+depois imprime os novos valores na tela
+*/
 #include <stdio.h>
 
 int main() {
-    
-    int a, b, c;
+    int a, b, aux;
 
-    //  Pegar o valor que o usuario digita e armazena na variavel 'a'
+    /*pega o valor que o usuario digita e armazena na variavel 'a'*/
     scanf("%d", &a);
-
-    //  Pegar o valor que o usuario digita e armazena na variavel 'a'
+    /*pega o valor que o usuario digita e armazena na variavel 'a'*/
     scanf("%d", &b);
 
-    //  Swap dos valores de 'a' e 'b'
-    c = a;
+    /*troca dos valores de 'a' e 'b'*/
+    aux = a;
     a = b;
-    b = c;
+    b = aux;
 
-    //  Imprime os novos valores de 'a' e 'b'
+    /*imprime os novos valores de 'a' e 'b'*/
     printf("%d\n", a);
     printf("%d\n", b);
 
