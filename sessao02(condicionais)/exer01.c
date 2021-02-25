@@ -1,3 +1,6 @@
+/*
+verifica se dois numeros informados sao iguais ou diferentes
+*/
 #include <stdio.h>
 
 int main() {
