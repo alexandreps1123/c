@@ -6,16 +6,16 @@ Foi em linguagem C minhas primeiras linhas de código, então retornar as origen
 ## Compilação em C
 
 >Exemplo:
-* Instrucao compilar: gcc -ansi -Wall -o helloWorld helloWorld.c
+* Instrução compilar: gcc -ansi -Wall -o helloWorld helloWorld.c
 * executar: ./helloWorld
 
 * gcc:    comando que invoca o compilador
-* -ansi:  parametro opcional, passado ao 'gcc' para que so aceite o padrao ANSI C
-* -Wall:  parametro opcional, habilita todas as 'warnings'
-* -o:     parametro opcional, usado para definir o nome do arquivo executavel que sera criado apos compilar
-* helloWorld.c:   parametro que deve ser passado ao gcc, o nome do arquivo com o codigo fonte
+* -ansi:  parâmetro opcional, passado ao 'gcc' para que só aceite o padrão ANSI C
+* -Wall:  parâmetro opcional, habilita todas as 'warnings'
+* -o:     parâmetro opcional, usado para definir o nome do arquivo executável que sera criado após compilar
+* helloWorld.c:   parâmetro que deve ser passado ao gcc, o nome do arquivo com o código fonte
 
 >Código fonte que utiliza a biblioteca: math.h
 * gcc -o <nome_arquivo> <nome_arquivo.c> -lm
 
-* -lm:    parametro necessario para executar a biblioteca math.h
+* -lm:    parâmetro necessário para executar a biblioteca math.h
